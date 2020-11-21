@@ -27,7 +27,7 @@
 
     vgrename VolGroup00 OtusRoot
 
-● Далее правим /etc/fstab, /etc/default/grub, /boot/grub2/grub.cfg. Везде заменāем старое название на новое.   
+● Далее правим /etc/fstab, /etc/default/grub, /boot/grub2/grub.cfg. Везде заменzем старое название на новое.   
 
 Пересоздаем __initrd image__, чтобы он знал новое название _Volume Group_ командой __mkinitrd__
 
